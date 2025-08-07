@@ -1,25 +1,42 @@
-import logo from './logo.svg';
-import './App.css';
+import Admin from "./Admin";
+import StatesDemo from "./StatesDemo";
+import User from "./User";
 
+//How to create component
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+    // var name="Viditya Software";
+    // function getShow()
+    // {
+    //     alert("Hello World");
+    // }
 
+    // function getMessage(firstName, lastName)
+    // {
+    //     console.log(`Hello ${firstName} ${lastName}`);
+    // }
+
+    let Role = "User";
+
+    return (
+        <div>
+            {/* {name}       
+            {12+12}
+            {getShow()} */}
+            {/* <button onClick={()=>getMessage('Viditya','Software')} className="btn btn-primary" >Get Message</button> */}
+
+            {/* {
+                1==3?<h3>Equal</h3>:<h3>Not Equal</h3>
+            } */}
+
+            {/* {
+                 Role=="Admin"?<Admin/>:<User/>
+            } */}
+
+            <StatesDemo />
+
+
+
+        </div>
+    )
+}
 export default App;
