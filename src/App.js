@@ -1,5 +1,6 @@
 import Admin from "./Admin";
 import StatesDemo from "./StatesDemo";
+import Test from "./Test";
 import User from "./User";
 
 //How to create component
@@ -32,7 +33,8 @@ function App() {
                  Role=="Admin"?<Admin/>:<User/>
             } */}
 
-            <StatesDemo />
+            {/* <StatesDemo /> */}
+            {/* <Test/> */}
 
 
 
