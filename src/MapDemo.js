@@ -41,7 +41,7 @@ function MapDemo(){
             <table className="table table-striped" >
                 <thead>
                     <tr>
-                        <th scope="col">PAtient Reg.No</th>
+                        <th scope="col">Patient Reg.No</th>
                         <th scope="col">Name</th>
                         <th scope="col">Age</th>
                         <th scope="col">Contact</th>
