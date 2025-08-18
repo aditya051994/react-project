@@ -7,6 +7,8 @@ import MapDemo from './MapDemo';
 import GetInputValue from './GetInputValue';
 import GetInputValue_State from './GetInputValue_State';
 import Spread from './Spread';
+import UseEffecDemo from './UseEffecDemo';
+import UseMemoD from './UseMemoD';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -14,6 +16,7 @@ root.render(
     // <App/> 
     // <GetInputValue/> 
     // <GetInputValue_State/>
-    <Spread/>
+    // <UseEffecDemo/>
+    <UseMemoD/>
     
 );

@@ -14,23 +14,26 @@ import WelcomePage from "./WelcomePage";
 function App() {
         
     return (
-        <div>
-            {/* <h3>Routing Example</h3> */}
-            <Router>
-                <div>
-                    <Link to="/home">Home</Link>
-                    <Link to="/product">Product</Link>
-                    <Link to="/contact">Contact</Link>
-                </div>
-                <Routes>
-                    <Route path="/" element={<WelcomePage />} />
-                    <Route path="/product" element={<Product />} />
-                    <Route path="/home" element={<Home />} />
-                    <Route path="/contact" element={<Contact />} />
-                    <Route path="*" element={<NotFound />} />
-                </Routes>
-            </Router>
-        </div>
+        <>
+        </>
+        
+        // <div>
+        //     {/* <h3>Routing Example</h3> */}
+        //     <Router>
+        //         <div>
+        //             <Link to="/home">Home</Link>
+        //             <Link to="/product">Product</Link>
+        //             <Link to="/contact">Contact</Link>
+        //         </div>
+        //         <Routes>
+        //             <Route path="/" element={<WelcomePage />} />
+        //             <Route path="/product" element={<Product />} />
+        //             <Route path="/home" element={<Home />} />
+        //             <Route path="/contact" element={<Contact />} />
+        //             <Route path="*" element={<NotFound />} />
+        //         </Routes>
+        //     </Router>
+        // </div>
     )
 }
 export default App;
